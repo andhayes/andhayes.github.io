@@ -1,0 +1,67 @@
+body {
+            background-image: url('https://i.imgur.com/gC4H7D9.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+        }
+        h1 {
+            color: gold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        h2 {
+            color: silver;
+        }
+        .scrollable-div {
+            width: 70%;
+            height: 60vh;   
+            overflow: scroll;
+            scrollbar-width: none;
+            border: 1px solid rgba(0, 0, 0, 0.753);
+            padding: 10px;
+            padding-left: 55px; padding-right: 55px;
+            background-color: rgba(0, 0, 0, 0.589);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: rgba(183, 183, 183, 0.696);
+            text-align: left;
+            text-indent: 25px;
+            border-radius: 15px;
+            line-height: 1cm;
+        }
+
+        .title-card{
+            width: 70%;
+            height: 10vh;
+            border-radius: 15px;
+            padding: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.753); 
+            background-color: rgba(0, 0, 0, 0.589);
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 55px; padding-right: 55px;
+        }
+
+        .title-card h4{
+            color: gold;
+            font-size: 1.5rem;
+            text-shadow: 2px 2px 4px #000000;
+            text-align: center;
+        }
+
+        .eh-link {
+            color: rgba(211, 211, 211, 0.715);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .eh-link:hover {
+            color: gold;
+            text-shadow: 1px 1px 2px #000000;
+        }
+        
+        
