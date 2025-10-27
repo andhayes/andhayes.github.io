@@ -89,5 +89,40 @@ body {
             color: gold;
             text-shadow: 1px 1px 2px #000000;
         }
+
+        /* Image styling for Empire Heights pages */
+        .eh-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            margin: 20px 0;
+        }
+
+        .eh-image-portrait {
+            max-width: 300px;
+            max-height: 400px;
+            float: right;
+            margin: 0 0 20px 20px;
+            shape-outside: margin-box;
+        }
+
+        .eh-image-center {
+            display: block;
+            margin: 20px auto;
+            max-width: 80%;
+        }
+
+        .eh-image-small {
+            max-width: 200px;
+            float: left;
+            margin: 0 20px 10px 0;
+        }
+
+        /* Clear floats after images */
+        .clear-float {
+            clear: both;
+        }
         
         
