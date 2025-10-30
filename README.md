@@ -1,1 +1,3 @@
 # andhayes.github.io
+
+Hey if you found this page just a hint if you put /home in it will take you to the homepage. /welcome will take you to the welcome letter. Every page works this way--if you know the name that is...
